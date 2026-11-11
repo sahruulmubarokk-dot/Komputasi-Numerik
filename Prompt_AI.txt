@@ -1,0 +1,11 @@
+Prompt AI Komputasi Numerik
+Nama  : Sahrul Mubarok
+NIM   : 202511420107
+
+AI yang saya gunakan adalah Claude.ai
+
+Promt 1 :
+Saya adalah mahasiswa semester 3 Teknik Informatika, saya ada tugas mata kuliah Komputasi Numerik yang perintah terdiri dari nomor 1-12, bantu saya mengerjakan
+
+Promt 2 : 
+Saya kirim file tugasnya, itu perintah tugasnya, kerjakan satu persatu perintahnya biar saya paham
