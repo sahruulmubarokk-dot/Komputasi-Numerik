@@ -3,27 +3,22 @@ Algoritma Penyelesaian Sistem Persamaan Linier 3
 Nama  : Sahrul Mubarok
 NIM   : 202511420107
 
-[ 3   1  -1 |  2 ]   ← baris 1
-[ 1   2   2 | 11 ]   ← baris 2
-[ 2  -1   1 |  3 ]   ← baris 3
+a11·x + a12·y + a13·z = b1
+a21·x + a22·y + a23·z = b2
+a31·x + a32·y + a33·z = b3
 
 Langkah-Langkah :
 
-1. Mulai.
-2. Input: masukkan koefisien x, y, z dan konstanta dari tiga persamaan ke dalam matriks A berukuran 3×4.
-3. Eliminasi maju, tahap 1 (kolom 1):
-a. Pivot-nya adalah A[1][1]. Jika bernilai 0, tukar dengan baris di bawahnya yang elemen kolom 1-nya tidak nol.
-b. Hitung faktor untuk baris 2 = A[2][1] ÷ A[1][1], lalu baris 2 = baris 2 − faktor × baris 1.
-c. Hitung faktor untuk baris 3 = A[3][1] ÷ A[1][1], lalu baris 3 = baris 3 − faktor × baris 1.
-Hasilnya, kolom 1 di baris 2 dan 3 menjadi 0.
-4. Eliminasi maju, tahap 2 (kolom 2):
-a. Pivot-nya adalah A[2][2]. Jika bernilai 0, tukar dengan baris 3.
-b. Hitung faktor = A[3][2] ÷ A[2][2], lalu baris 3 = baris 3 − faktor × baris 2.
-Hasilnya, kolom 2 di baris 3 menjadi 0 dan matriks sudah berbentuk segitiga atas.
-5. Cek solusi: jika A[3][3] = 0, sistem tidak punya solusi tunggal, tampilkan pesan dan berhenti.
-6. Substitusi mundur:
-z = A[3][4] ÷ A[3][3]
-y = (A[2][4] − A[2][3]·z) ÷ A[2][2]
-x = (A[1][4] − A[1][2]·y − A[1][3]·z) ÷ A[1][1]
-7. Output: tampilkan nilai x, y, z.
-8. Selesai.
+Mulai.
+Input koefisien matriks A (3×3) dan konstanta b (3×1).
+Gabungkan A dan b menjadi matriks augmented [A|b] berukuran 3×4.
+Eliminasi maju: untuk setiap kolom pivot k = 1 sampai 2:
+Jika pivot bernilai 0, tukar baris dengan baris di bawahnya yang pivotnya tidak 0. Jika tidak ada, SPL tidak punya solusi tunggal, berhenti.
+Untuk setiap baris i di bawah pivot, hitung faktor = elemen[i][k] / elemen[k][k].
+Kurangkan baris i dengan faktor × baris pivot, sehingga elemen di bawah pivot menjadi 0.
+Substitusi mundur:
+z = b3' / a33'
+y = (b2' − a23'·z) / a22'
+x = (b1' − a12'·y − a13'·z) / a11'
+Cetak x, y, z.
+Selesai.
