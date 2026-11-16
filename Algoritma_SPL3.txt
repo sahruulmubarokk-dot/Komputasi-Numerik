@@ -13,12 +13,12 @@ Langkah-Langkah :
 2. Input koefisien matriks A (3×3) dan konstanta b (3×1).
 3. Gabungkan A dan b menjadi matriks augmented [A|b] berukuran 3×4.
 4. Eliminasi maju: untuk setiap kolom pivot k = 1 sampai 2:
-Jika pivot bernilai 0, tukar baris dengan baris di bawahnya yang pivotnya tidak 0. Jika tidak ada, SPL tidak punya solusi tunggal, berhenti.
-5. Untuk setiap baris i di bawah pivot, hitung faktor = elemen[i][k] / elemen[k][k].
-6. Kurangkan baris i dengan faktor × baris pivot, sehingga elemen di bawah pivot menjadi 0.
-7. Substitusi mundur:
+ - Jika pivot bernilai 0, tukar baris dengan baris di bawahnya yang pivotnya tidak 0. Jika tidak ada, SPL tidak punya solusi tunggal, berhenti.
+ - Untuk setiap baris i di bawah pivot, hitung faktor = elemen[i][k] / elemen[k][k].
+ - Kurangkan baris i dengan faktor × baris pivot, sehingga elemen di bawah pivot menjadi 0.
+5. Substitusi mundur:
 z = b3' / a33'
 y = (b2' − a23'·z) / a22'
 x = (b1' − a12'·y − a13'·z) / a11'
-8. Cetak x, y, z.
-9. Selesai.
+6. Cetak x, y, z.
+7. Selesai.
