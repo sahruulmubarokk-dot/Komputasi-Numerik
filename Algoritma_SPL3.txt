@@ -9,16 +9,16 @@ a31·x + a32·y + a33·z = b3
 
 Langkah-Langkah :
 
-Mulai.
-Input koefisien matriks A (3×3) dan konstanta b (3×1).
-Gabungkan A dan b menjadi matriks augmented [A|b] berukuran 3×4.
-Eliminasi maju: untuk setiap kolom pivot k = 1 sampai 2:
+1. Mulai.
+2. Input koefisien matriks A (3×3) dan konstanta b (3×1).
+3. Gabungkan A dan b menjadi matriks augmented [A|b] berukuran 3×4.
+4. Eliminasi maju: untuk setiap kolom pivot k = 1 sampai 2:
 Jika pivot bernilai 0, tukar baris dengan baris di bawahnya yang pivotnya tidak 0. Jika tidak ada, SPL tidak punya solusi tunggal, berhenti.
-Untuk setiap baris i di bawah pivot, hitung faktor = elemen[i][k] / elemen[k][k].
-Kurangkan baris i dengan faktor × baris pivot, sehingga elemen di bawah pivot menjadi 0.
-Substitusi mundur:
+5. Untuk setiap baris i di bawah pivot, hitung faktor = elemen[i][k] / elemen[k][k].
+6. Kurangkan baris i dengan faktor × baris pivot, sehingga elemen di bawah pivot menjadi 0.
+7. Substitusi mundur:
 z = b3' / a33'
 y = (b2' − a23'·z) / a22'
 x = (b1' − a12'·y − a13'·z) / a11'
-Cetak x, y, z.
-Selesai.
+8. Cetak x, y, z.
+9. Selesai.
