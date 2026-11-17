@@ -1,1 +1,31 @@
+TUGAS 1 - KOMPUTASI NUMERIK
+DAFTAR LINK AKUN
 
+Nama Mahasiswa  : Sahrul Mubarok
+NIM             : 202511420107
+Program Studi   : Teknik Informatika
+Mata Kuliah     : Komputasi Numerik
+
+
+-----------------------------------------------------
+1. AKUN GITHUB
+-----------------------------------------------------
+Username        : sahruulmubarokk-dot
+Link Profil     : https://github.com/mirfanmbrk
+Link Repository : https://github.com/mirfanmbrk/Komputasi-Numerik
+Nama Repository : Komputasi-Numerik
+
+
+-----------------------------------------------------
+2. AKUN GOOGLE COLABORATORY
+-----------------------------------------------------
+Akun Google     : mirfanmbrk@gmail.com
+Link Notebook   : https://colab.research.google.com/drive/1Md4qaD-eljC4nBWycJoo8zn1O1BNh-b6?usp=sharing
+Nama Notebook   : SPL 3 Variabel v1.ipynb
+
+
+-----------------------------------------------------
+3. AKUN LINKEDIN
+-----------------------------------------------------
+Nama Profil     : M. Irfan Mubarok
+Link Profil     : www.linkedin.com/in/m-irfan-mubarok-704ab8441
