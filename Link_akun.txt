@@ -11,7 +11,7 @@ Mata Kuliah     : Komputasi Numerik
 1. AKUN GITHUB
 -----------------------------------------------------
 Username        : sahruulmubarokk-dot
-Link Profil     : https://github.com/mirfanmbrk
+Link Profil     : http://github.com/sahruulmubarokk-dot
 Link Repository : https://github.com/mirfanmbrk/Komputasi-Numerik
 Nama Repository : Komputasi-Numerik
 
