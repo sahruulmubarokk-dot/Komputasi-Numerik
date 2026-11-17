@@ -20,8 +20,8 @@ Nama Repository : Komputasi-Numerik
 2. AKUN GOOGLE COLABORATORY
 -----------------------------------------------------
 Akun Google     : sahruulmubarokk@gmail.com
-Link Notebook   : https://colab.research.google.com/drive/1Md4qaD-eljC4nBWycJoo8zn1O1BNh-b6?usp=sharing
-Nama Notebook   : SPL 3 Variabel v1.ipynb
+Link Notebook   : https://colab.research.google.com/drive/1WRzWHwcxH7_CMaHMJGmCoqUhrDIin0OR
+Nama Notebook   : SPL 3 Gauss.ipynb
 
 
 -----------------------------------------------------
