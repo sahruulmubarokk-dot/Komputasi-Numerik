@@ -2,6 +2,8 @@
 
 Repository ini berisi tugas mata kuliah Komputasi Numerik
 
+Link Video Presentasi : https://drive.google.com/file/d/1ygAmupA3Mb_v7KPOYOEjOyan2p5xVM74/view?usp=sharing
+
 ## Identitas
 
 -**Nama** : Sahrul Mubarok
