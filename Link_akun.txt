@@ -19,7 +19,7 @@ Nama Repository : Komputasi-Numerik
 -----------------------------------------------------
 2. AKUN GOOGLE COLABORATORY
 -----------------------------------------------------
-Akun Google     : mirfanmbrk@gmail.com
+Akun Google     : sahruulmubarokk@gmail.com
 Link Notebook   : https://colab.research.google.com/drive/1Md4qaD-eljC4nBWycJoo8zn1O1BNh-b6?usp=sharing
 Nama Notebook   : SPL 3 Variabel v1.ipynb
 
