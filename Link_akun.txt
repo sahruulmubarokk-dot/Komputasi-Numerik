@@ -12,7 +12,7 @@ Mata Kuliah     : Komputasi Numerik
 -----------------------------------------------------
 Username        : sahruulmubarokk-dot
 Link Profil     : http://github.com/sahruulmubarokk-dot
-Link Repository : https://github.com/mirfanmbrk/Komputasi-Numerik
+Link Repository : https://github.com/sahruulmubarokk-dot/Komputasi-Numerik
 Nama Repository : Komputasi-Numerik
 
 
